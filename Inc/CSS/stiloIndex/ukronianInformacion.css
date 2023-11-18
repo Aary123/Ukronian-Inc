@@ -1,0 +1,230 @@
+.ukronianInformacion {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 3820px;
+    background-color: var(--color-white);
+
+}
+
+.ConactUs {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: transparent;
+    font-size: 17px;
+    top: 17%;
+    font-weight: 500;
+}
+
+.ubicacion {
+    width: 25%;
+    height: 350px;
+    background-color: transparent;
+    position: absolute;
+    top: 3870px;
+    left: 15%;
+}
+
+.formulary {
+    width: 40%;
+    height: 350px;
+    background-color: transparent;
+    position: absolute;
+    top: 3870px;
+    left: 45%;
+}
+
+.local {
+    width: 100%;
+    background-color: transparent;
+    font-size: 40px;
+    font-weight: 600;
+    position: relative;
+    top: 20%;
+}
+
+.dire {
+    width: 100%;
+    background-color: transparent;
+    line-height: 2;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: 30%;
+}
+
+.name {
+    width: 100%;
+    height: 30px;
+    position: relative;
+    background-color: transparent;
+    font-size: 40px;
+    top: 21.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.correo {
+    width: 100%;
+    height: 30px;
+    position: relative;
+    background-color: transparent;
+    font-size: 40px;
+    top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.razon {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: var(--color-form);
+    font-size: 40px;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    font-family: 'poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: var(--color-form);
+    padding-left: 10px;
+    position: relative;
+    top: 0%;
+}
+
+input:focus {
+    background-color: var(--color-form);
+
+    background-color: var(--color-form);
+    outline: none;
+}
+
+.no-resizable:focus {
+    background-color: var(--color-form);
+
+    background-color: var(--color-form);
+    outline: none;
+}
+
+.no-resizable {
+    font-family: 'poppins', sans-serif;
+    resize: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: var(--color-form);
+    padding-left: 10px;
+    position: relative;
+    top: 0%;
+}
+
+.send2 {
+    background-color: transparent;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    position: relative;
+    top: 40%;
+    line-height: 1.5;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.divi {
+
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    position: relative;
+    top: 90%;
+
+}
+
+hr {
+    width: 95%;
+    border: solid 1px #bababa;
+
+}
+
+.copyr {
+    background-color: transparent;
+    width: 25%;
+    height: 20px;
+    position: absolute;
+    top: 4340px;
+    left: 2.5%;
+    font-size: 12px;
+}
+
+.legal {
+
+    background-color: transparent;
+    width: 40%;
+    height: 20px;
+    position: absolute;
+    top: 4340px;
+    left: 30%;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.country {
+    background-color: transparent;
+    width: 97.5%;
+    height: 20px;
+    position: absolute;
+    top: 4340px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.button span {
+    transition: margin-left 0.3s ease;
+}
+
+.button:hover span {
+    margin-left: 5px;
+}
+
+.logo {
+    background-color: transparent;
+
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 40%;
+    background-image: url("../../imagenes/logotipo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.uk {
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 25.8%;
+    left: 60px;
+    display: flex;
+    align-items: center;
+
+}

@@ -1,0 +1,21 @@
+.presentation {
+    color: var(--color-text);
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    height: 200px;
+    line-height: 0px;
+}
+
+h1 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+}
+
+h2 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}

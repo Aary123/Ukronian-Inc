@@ -1,0 +1,33 @@
+button {
+    width: 200px;
+    font-family: 'poppins', sans-serif;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: solid 1px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--color-negro);
+    border-color: var(--color-negro);
+    color: var(--color-white);
+    transition: 0.4s;
+}
+
+button.stilo2 {
+    font-family: 'poppins', sans-serif;
+    color: var(--color-white);
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: solid 1px;
+}
+
+button.stilo2:hover {
+    cursor: pointer;
+    background-color: var(--color-text);
+    border-color: var(--color-text);
+    color: var(--color-negro);
+    transition: 0.4s;
+}

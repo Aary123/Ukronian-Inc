@@ -1,0 +1,26 @@
+.redesSociales {
+    display: flex;
+    background-color: transparent;
+    position: absolute;
+    top: 850px;
+    left: 20px;
+    width: 102px;
+    height: 20px;
+}
+
+.social1,
+.social2,
+.social3 {
+    width: 15px;
+    height: 15px;
+}
+
+img.imgSocial1 {
+    width: 15px;
+    height: 15px;
+}
+
+img.imgSocial2 {
+    width: 23px;
+    height: 15px;
+}

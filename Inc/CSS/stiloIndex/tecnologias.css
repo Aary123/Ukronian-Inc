@@ -1,0 +1,52 @@
+.tecnologias {
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 2100px;
+    display: flex;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*
+background-image: url(../../imagenes/Render.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center top;
+*/
+.tecTitle {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-color: transparent;
+    top: 150px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tec1 {
+    background-color: transparent;
+    width: 60%;
+    font-size: 15px;
+    height: 80px;
+    position: relative;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: block;
+
+    align-items: center;
+    top: 50px;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1.job {
+    font-size: 40px;
+}

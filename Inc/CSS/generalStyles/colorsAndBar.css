@@ -1,0 +1,18 @@
+:root {
+    --color-negro: #292929;
+    --color-enfasis: #779784;
+    --color-gris: #f1f1f1;
+    --color-text: #f1f1f1;
+    --color-white: #fff;
+    --color-form: #fbfbfb;
+    
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::selection {
+    background-color: var(--color-enfasis);
+    color: #fff;
+}

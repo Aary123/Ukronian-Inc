@@ -1,0 +1,240 @@
+.container {
+    color: var(--color-white);
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 30%;
+    height: 70%;
+    backdrop-filter: blur(5px);
+    background-color: #ffffff06;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.welcome {
+    background-color: transparent;
+    width: 70%;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.text1 {
+
+    background-color: transparent;
+    width: 70%;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.usernameT {
+    background-color: transparent;
+    width: 50%;
+    position: relative;
+    top: 78px;
+    left: 40px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.usernameF {
+
+    background-color: transparent;
+    width: 76.5%;
+    position: relative;
+    top: 85px;
+    left: 40px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.passwordT {
+    background-color: transparent;
+    width: 50%;
+    position: relative;
+    top: 110px;
+    left: 40px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.passwordF {
+    background-color: transparent;
+    width: 76.5%;
+    position: relative;
+    top: 117px;
+    left: 40px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.remember {
+
+    background-color: transparent;
+    width: 82%;
+    position: relative;
+    top: 150px;
+    left: 40px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.buton {
+
+    background-color: transparent;
+    width: 82%;
+    position: relative;
+    top: 180px;
+    left: 40px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.signin {
+    background-color: transparent;
+    width: 100%;
+    position: relative;
+    top: 200px;
+    font-weight: 100;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    text-align: center;
+    font-weight: bold;
+    border: 0px solid var(--color-negro);
+    border-bottom: 2px solid var(--color-enfasis);
+    font-size: 15px;
+    background-color: transparent;
+    padding: 10px;
+    width: 100%;
+    margin: 1px;
+
+}
+
+input[type="text"] {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    border: 0px solid var(--color-negro);
+    border-bottom: 2px solid var(--color-enfasis);
+    font-size: 12px;
+    background-color: transparent;
+    padding: 10px;
+    width: 100%;
+    margin: 1px;
+
+}
+
+input[type="password"] {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    border: 0px solid var(--color-negro);
+    border-bottom: 2px solid var(--color-enfasis);
+    font-size: 12px;
+    background-color: transparent;
+    padding: 10px;
+    width: 100%;
+    margin: 1px;
+
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: var(--color-white);
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    position: relative;
+    top: 0%;
+}
+
+input:focus {
+    border: 0px solid var(--color-gris);
+    outline: none;
+    background-color: var(--color-negro);
+    border-bottom: 2px solid var(--color-enfasis);
+
+}
+
+.customCheckbox {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .customCheckbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .customCheckbox input:checked ~ .checkmark {
+    background-color: var(--color-enfasis);
+  }
+  
+  .customCheckbox input:checked ~ .checkmark:after {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 4.2px;
+    top: 0.3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+button {
+    color: var(--color-white);
+    font-family: 'montserrat', sans-serif;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: var(--color-negro);
+    border: solid 1px transparent;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--color-enfasis);
+    border-color: var(--color-negro);
+    color: var(--color-white);
+    transition: 0.4s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--color-enfasis);
+}
